@@ -26,4 +26,4 @@ apt-get install -y google-chrome-unstable --no-install-recommends
 rm -rf /var/lib/apt/lists/*
 wget --quiet https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh -O /usr/sbin/wait-for-it.sh
 chmod +x /usr/sbin/wait-for-it.sh
-npm i -g puppeteer
+npm i -g puppeteer --allow-root
