@@ -1,4 +1,4 @@
-FROM debian:stretch-slim
+FROM debian:stretch
 MAINTAINER Jesse Rosenberger
 
 ENV METEORD_DIR /opt/meteord
